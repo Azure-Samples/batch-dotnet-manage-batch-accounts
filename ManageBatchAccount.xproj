@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>fbd7f625-4b9b-42c8-b753-41fdbd1204fb</ProjectGuid>
+    <ProjectGuid>999240ed-d367-48b6-9782-eff66a45941a</ProjectGuid>
     <RootNamespace>ManageBatchAccount</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
