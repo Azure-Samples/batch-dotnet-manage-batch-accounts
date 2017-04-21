@@ -4,7 +4,7 @@ platforms: .Net
 author: anudeepsharma
 ---
 
-#Getting Started with Batch - Manage Batch Account - in .Net #
+# Getting Started with Batch - Manage Batch Account - in .Net #
 
           Azure Batch sample for managing batch accounts -
            - Get subscription batch account quota for a particular location.

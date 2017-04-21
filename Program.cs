@@ -4,12 +4,12 @@
 using Microsoft.Azure.Management.Fluent;
 using Microsoft.Azure.Management.Batch.Fluent.Models;
 using Microsoft.Azure.Management.Batch.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent.Authentication;
-using Microsoft.Azure.Management.Resource.Fluent.Core;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Authentication;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Core;
 using Microsoft.Azure.Management.Samples.Common;
 using System;
 using System.Linq;
-using Microsoft.Azure.Management.Resource.Fluent;
+using Microsoft.Azure.Management.ResourceManager.Fluent;
 
 namespace ManageBatchAccount
 {
@@ -103,7 +103,7 @@ namespace ManageBatchAccount
 
                 // ============================================================
                 // Regenerate the keys for storage account
-                var storageAccount = azure.StorageAccounts.GetByGroup(rgName, storageAccountName);
+                var storageAccount = azure.StorageAccounts.GetByResourceGroup(rgName, storageAccountName);
                 var storageAccountKeys = storageAccount.GetKeys();
 
                 Utilities.PrintStorageAccountKeys(storageAccountKeys);
@@ -162,7 +162,7 @@ namespace ManageBatchAccount
 
                 Utilities.Log("Listing Batch accounts");
 
-                var accounts = azure.BatchAccounts.ListByGroup(rgName);
+                var accounts = azure.BatchAccounts.ListByResourceGroup(rgName);
                 foreach (var account in accounts)
                 {
                     Utilities.Log("Batch Account - " + account.Name);
@@ -238,7 +238,7 @@ namespace ManageBatchAccount
 
                 var azure = Azure
                     .Configure()
-                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.BASIC)
+                    .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
                     .Authenticate(credentials)
                     .WithDefaultSubscription();
 
