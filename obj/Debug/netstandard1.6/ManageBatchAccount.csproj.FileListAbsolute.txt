@@ -1,0 +1,2 @@
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\bin\Debug\netstandard1.6\ManageBatchAccount.deps.json
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\obj\Debug\netstandard1.6\ManageBatchAccount.csproj.CoreCompileInputs.cache

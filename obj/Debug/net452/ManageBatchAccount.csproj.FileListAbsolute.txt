@@ -1,0 +1,4 @@
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\bin\Debug\net452\ManageBatchAccount.runtimeconfig.json
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\bin\Debug\net452\ManageBatchAccount.runtimeconfig.dev.json
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\obj\Debug\net452\ManageBatchAccount.csproj.ManageBatchAccount.exe.config
+C:\Sources\dotnet-samples\batch-dotnet-manage-batch-accounts\obj\Debug\net452\ManageBatchAccount.csproj.CoreCompileInputs.cache
