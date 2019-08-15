@@ -4,26 +4,26 @@ languages:
 - csharp
 products:
 - azure
-services: Batch
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Batch
+- platforms: dotnet
 ---
 
 # Getting started on managing batch accounts in C# #
 
-          Azure Batch sample for managing batch accounts -
-           - Get subscription batch account quota for a particular location.
-           - List all the batch accounts, look if quota allows you to create a new batch account at specified location by counting batch accounts in that particular location.
-           - Create a batch account with new application and application package, along with new storage account.
-           - Get the keys for batch account.
-           - Regenerate keys for batch account
-           - Regenerate the keys of storage accounts, sync with batch account.
-           - Update application's display name.
-           - Create another batch account using existing storage account.
-           - List the batch account.
-           - Delete the batch account.
-               - Delete the application packages.
-               - Delete applications.
+ Azure Batch sample for managing batch accounts -
+  - Get subscription batch account quota for a particular location.
+  - List all the batch accounts, look if quota allows you to create a new batch account at specified location by counting batch accounts in that particular location.
+  - Create a batch account with new application and application package, along with new storage account.
+  - Get the keys for batch account.
+  - Regenerate keys for batch account
+  - Regenerate the keys of storage accounts, sync with batch account.
+  - Update application's display name.
+  - Create another batch account using existing storage account.
+  - List the batch account.
+  - Delete the batch account.
+      - Delete the application packages.
+      - Delete applications.
 
 
 ## Running this Sample ##
